@@ -1,0 +1,15 @@
+name: SimpleGamemode
+version: '${project.version}'
+main: com.shakytimon.simplegamemode.Main
+api-version: '1.13'
+authors: [ShakyTimon]
+
+commands:
+  gmc:
+    description: "Allows you to set your gamemode or the gamemode of other's to creative."
+    usage: /gmc
+    permission: simplegamemode.gmc
+  gms:
+    description: "Allows you to set your gamemode or the gamemode of other's to creative."
+    usage: /gms
+    permission: simplegamemode.gms
